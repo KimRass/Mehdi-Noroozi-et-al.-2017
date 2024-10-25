@@ -12,8 +12,8 @@ from itertools import product
 from pathlib import Path
 import numpy as np
 
-from object_counting.model import AlexNetFeatureExtractor, CountingFeatureExtractor
-from image_utils import (
+from model import AlexNetFeatureExtractor, CountingFeatureExtractor
+from utils import (
     load_image,
     _to_pil,
     show_image
